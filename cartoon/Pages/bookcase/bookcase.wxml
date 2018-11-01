@@ -1,0 +1,25 @@
+<view class="content">
+<swiper indicator-dots='true' class="swiper">
+<block wx:for="{{swiperList}}">
+<swiper-item>
+<image src="{{item.url}}" class="img" bindtap="detail" id='{{item.id}}' data-name="swiper" data-bookName='{{item.name}}'></image>
+</swiper-item>
+</block>
+</swiper>
+<view class="des">
+<view class="big">精品恐漫</view>
+<view class="small">每一部都是经典!</view>
+</view>
+
+<view class="line" wx:for="{{Array}}" wx:for-item="result">
+<view class="bookbox">
+<block wx:for="{{bookList}}">
+<view class="book" wx:if="{{index/3<result&&index/3>=(result-1)}}">
+<image src='{{item.url}}' class="bookimg" bindtap="detail" id="{{item.id}}"   data-name='book' data-bookName='{{item.name}}'></image>
+<view class="bookname">{{item.name}}</view>
+</view>
+</block>
+</view>
+</view>
+
+</view>

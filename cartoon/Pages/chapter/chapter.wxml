@@ -1,0 +1,8 @@
+<view class="content">
+<block wx:for="{{chapterList}}">
+<view class="chapter">
+<view class="chaptername" bindtap='detail' id="{{item.id}}" data-chapterName='{{item.name}}' >{{item.name}}</view>
+<view class="hr"></view>
+</view>
+</block>
+</view>

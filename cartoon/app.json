@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "Pages/bookcase/bookcase",
+    "Pages/contact/contact",
+    "Pages/cartoon/cartoon",
+    "Pages/chapter/chapter",
+    "Pages/login/login"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "Pages/bookcase/bookcase",
+      "text": "书橱",
+      "iconPath": "Pages/images/b7.png",
+      "selectedIconPath": "Pages/images/b7.png"
+    },{
+      "pagePath": "Pages/login/login",
+      "text": "我的",
+      "iconPath": "Pages/images/b2.png",
+      "selectedIconPath": "Pages/images/b2.png"
+    }]
+  }
+
+
+
+
+
+
+
+
+}

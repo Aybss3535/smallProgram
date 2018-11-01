@@ -1,0 +1,42 @@
+.img{
+  width: 100%;
+  height: 170px
+}
+.swiper{
+  width: 100%;
+  height: 170px
+}
+.des{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px
+}
+.big{
+  font-size: 15px;
+  margin-left: 5px;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.small{
+  font-size: 13px;
+  color: #cccccc;
+  margin-top: 3px;
+  margin-left: 5px
+}
+.bookimg{
+  height: 145px;
+  width: 30vw;
+}
+.bookname{
+  font-size: 15px;
+  text-align: center;
+  margin-top: -3px;
+  font-family:   'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.bookbox{
+  display: flex;
+  white-space:  pre-wrap
+}
+.book{
+  margin-left: 9px;
+  margin-top: 5px
+}

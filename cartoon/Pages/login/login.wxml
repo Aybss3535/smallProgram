@@ -1,0 +1,44 @@
+<view class="content">
+<view class="head">
+<canvas canvas-id="MyCanvas" class="fiestCanvas"></canvas>
+<view class="nickname">{{nickname}}</view>
+</view>
+<!-- <view class="hr"></view> -->
+<view class="center">
+<view class="more">
+<view class="gzhhead">
+<image class="gzh" src="{{gzhsrc}}"></image>
+</view>
+<view class="gzhcontent">
+<view class="gzhtitle">暴走恐怖屋</view>
+<view class="gzhdetail">更多精彩内容，请关注官方微信公众号</view>
+</view>
+<button class="gz" bindtap="gzgzh" >
+<view class="gzname">关注</view>
+</button>
+</view>
+</view>
+<view class="body">
+<!-- <view class="hr"></view>
+<view class="money" bindtap="money">
+<view class="name">阅读币</view>
+<view class="value">{{money}}</view>
+<view class="detail">></view>
+</view>
+<view class="hr"></view>
+<view class="register" bindtap="register">
+<view class="name">每日签到</view>
+<view class="value">已签到{{day}}天</view>
+<view class="detail">></view>
+</view> -->
+<view class="hr"></view>
+<view class="contact" bindtap="contact">
+<view class="icon">
+<image src="/Pages/images/b11.png" class="image"></image>
+</view>
+<view class="name">联系小编</view>
+<view class="detail">></view>
+</view>
+<view class="hr"></view>
+</view>
+</view>

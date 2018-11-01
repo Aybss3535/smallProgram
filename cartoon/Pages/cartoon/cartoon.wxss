@@ -1,0 +1,28 @@
+.cartoonImg{
+  width: 100%;
+  margin-top: -4px
+}
+.cartoonImg1{
+  width: 100%
+}
+.button{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15px
+}
+.preChapter{
+  margin-right: 10px
+}
+.line{
+  border: 1px  solid  #cccccc;
+  opacity: 0.2;
+}
+.declare{
+  text-align: center;
+  font-size: 15px;
+  color: #cccccc;
+  margin-top: 5px;
+  margin-bottom: 5px
+}

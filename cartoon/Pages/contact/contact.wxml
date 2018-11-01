@@ -1,0 +1,10 @@
+<view class="content">
+
+<view class="message">　　获取精彩漫画、给予建议等，欢迎关注微信公众号：暴走恐怖屋，后台回复内容即可给小编留言，感谢支持</view>
+<button bindtap="copywx" type="primary">复制微信公众号</button>
+<view class="hr"></view>
+<view class="message">　　投稿、合作、侵权联系欢迎联系小编QQ1330145984</view>
+<button bindtap="copyqq" type="primary">复制QQ</button>
+
+
+</view>

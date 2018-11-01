@@ -1,0 +1,20 @@
+<view class="content">
+<block wx:for="{{cartoonList}}">
+<image src="{{item.url}}" mode="widthFix" class="{{item.id==1?'cartoonImg1':'cartoonImg'}}"></image>
+</block>
+
+<view class="button">
+<view wx:if="{{id!=1}}">
+<button type="mini" class="preChapter" bindtap='prechapter'>上一章</button>
+</view>
+<view wx:if="{{id!=maxid}}">
+<button type="mini" class="nextChapter" bindtap="nextchapter">下一章</button>
+</view>
+</view>
+
+<view class="line"></view>
+
+<view class="declare">
+<text>以上内容经分销授权，若作者不同意该漫画出现在此处，请联系删除。</text>
+</view>
+</view>

@@ -1,0 +1,13 @@
+.message{
+  font-size: 15px;
+  margin-top: 10px
+}
+button{
+  margin-top: 10px;
+  width: 85%
+}
+.hr{
+  border: 1px solid #cccccc;
+  margin-top: 15px;
+  opacity: 0.2
+}

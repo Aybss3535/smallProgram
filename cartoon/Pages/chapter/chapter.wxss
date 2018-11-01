@@ -1,0 +1,16 @@
+.chaptername{
+  font-size: 15px;
+  font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif
+}
+.chapter{
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 8px;
+  line-height: 50px
+}
+.hr{
+  border: 1px solid #cccccc;
+  width: 95%;
+  opacity: 0.2
+}

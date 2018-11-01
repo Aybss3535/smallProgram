@@ -1,0 +1,121 @@
+.content{
+  width: 100%;
+}
+.head{
+  height: 150px;
+   background: #FFFFFF; 
+  width: 100%;
+  border-radius: 10px
+}
+.fiestCanvas{
+  width: 100%;
+  height: 130px;
+}
+.nickname{
+  height: 10px;
+  width: 100%;
+  font-size: 15px;
+}
+.nickname{
+  text-align: center;
+}
+.money{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.register{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.contact{
+   width: 100%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.name{
+  font-size: 17px;
+  line-height: 45px;
+}
+.hr{
+  border: 1px solid #cccccc;
+   /* opacity: 0.2  */
+}
+.value{
+  line-height: 45px;
+  position: absolute;
+  right: 20px;
+  color: #cccccc;
+   /* opacity: 0.5;  */
+}
+.detail{
+  line-height: 45px;
+  position: absolute;
+  right: 5px;
+  color: #cccccc;
+}
+.center{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+.more{
+  height: 80px;
+  width: 90%;
+  background: #DFFFDF;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.gzh{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  margin-top: 10px
+}
+.gzhtitle{
+  font-size: 20px;
+  margin-top: 13px;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.gzhdetail{
+  font-size: 12px;
+  color: #cccccc;
+  margin-top: 2px
+}
+.gzhcontent{
+  margin-left: 5px;
+  text-align: center;
+  width: 50%;
+    /* border:1px solid black*/
+
+}
+.gzhhead{
+  width: 25%;
+}
+.gzname{
+  margin-top: -2px;
+}
+.gz{
+  height: 28px;
+  width: 55px;
+  border-radius: 5px;
+  border: 1px solid #04be02;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #04be02;
+}
+.image{
+  height: 25px;
+  width: 25px;
+}
+.icon{
+  line-height: 45px;
+  margin-top: 6px
+}
